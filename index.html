@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matias Zurita | Portfolio & CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio"><span class="brand-mark">MZ</span><span>Matias Zurita</span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#experiencia">Proyectos</a>
+      <a href="#formacion">Formación</a>
+      <a class="nav-cta" href="#contacto">Contactarme <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="inicio">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> ESTUDIANTE · TÉCNICO EN COMPUTACIÓN</div>
+        <h1>Hola, soy<br><span>Matias Zurita.</span></h1>
+        <p class="hero-lead">Me gusta crear cosas con tecnología, resolver problemas y aprender cómo funcionan las cosas detrás de la pantalla.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#experiencia">Ver mis proyectos <span>↘</span></a>
+          <a class="button button-ghost" href="#contacto">Hablemos <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span>📍 Ciudadela, Buenos Aires</span><span>💻 Java · HTML · CSS · SQL</span></div>
+      </div>
+      <div class="hero-visual reveal reveal-delay">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="photo-frame">
+          <img src="assets/foto.png" alt="Foto de mí" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+        </div>
+        <div class="floating-card card-code"><span class="mini-icon">&lt;/&gt;</span>
+          <div><strong>Siempre aprendiendo</strong><small>Una línea de código a la vez</small></div>
+        </div>
+        <div class="floating-card card-available"><span class="status-dot"></span> Abierto a nuevos desafíos</div>
+        <span class="hero-spark spark-one">✳</span><span class="hero-spark spark-two">✦</span>
+      </div>
+    </section>
+
+    <section class="about section-shell section-space" id="sobre-mi">
+      <div class="section-label reveal"><span>01</span> / SOBRE MÍ</div>
+      <div class="about-content reveal">
+        <h2>Tecnología, curiosidad<br>y ganas de <span>crear.</span></h2>
+        <p>Actualmente estoy cursando 6º año para recibirme de Técnico en Computación. Me atrae todo lo relacionado con las computadoras y quiero seguir aprendiendo y desarrollándome en el mundo de la tecnología.</p>
+        <p>Mi objetivo es estudiar Ingeniería en Sistemas en la UTN y seguir construyendo proyectos que me permitan llevar lo que aprendo a la práctica.</p>
+        <div class="quick-facts">
+          <div><strong>6º</strong><span>Año de secundaria</span></div>
+          <div><strong>3</strong><span>Proyectos destacados</span></div>
+          <div><strong>∞</strong><span>Ganas de aprender</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-shell section-space" id="experiencia">
+      <div class="section-heading reveal">
+        <div>
+          <div class="section-label"><span>02</span> / EXPERIENCIA PRÁCTICA</div>
+          <h2>Proyectos que<br><span>hice en equipo.</span></h2>
+        </div>
+        <p>Experiencias de aprendizaje donde pude colaborar, programar y resolver problemas reales de desarrollo.</p>
+      </div>
+      <div class="project-grid">
+
+        <div class="project-card reveal reveal-delay">
+          <div class="project-top">
+            <span class="project-number">01 — VIDEOJUEGO EN JAVA</span>
+            <span class="project-symbol">↗</span>
+          </div>
+
+          <div class="project-art art-web">
+            <div class="browser-bar">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="browser-lines">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="art-label">SUPER PABLO 2</div>
+          </div>
+
+          <div class="project-info">
+            <h3>Super Pablo 2</h3>
+            <p>Colaboré haciendo un videojuego estilo Super Mario en Java. Desarrollé a los enemigos, arreglé bugs, entre otras cosas.</p>
+            <div class="tags">
+              <span>Java</span>
+              <span>Videojuegos</span>
+              <span>Debugging</span>
+            </div>
+          </div>
+        </div>
+
+
+        <article class="project-card reveal reveal-delay">
+          <div class="project-top">
+            <span class="project-number">02 — APP MÓVIL</span>
+            <span class="project-symbol">↗</span>
+          </div>
+
+          <div class="project-art art-web">
+            <div class="browser-bar">
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+            <div class="browser-lines">
+              <b></b>
+              <b></b>
+              <b></b>
+              <span></span>
+            </div>
+            <span class="art-label">BONDITRACK</span>
+          </div>
+
+          <div class="project-info">
+            <h3>BondiTrack</h3>
+            <p>Proyecto de una aplicación móvil para consultar la ubicación de colectivos de Buenos Aires en tiempo real y obtener estimaciones de llegada a las paradas. Incluye filtros por línea y herramientas para facilitar los viajes diarios.</p>
+
+            <div class="tags">
+              <span>React Native</span>
+              <span>Expo</span>
+              <span>TypeScript</span>
+            </div>
+
+            <a class="project-link" href="https://github.com/MatiZur/BondiTrack" target="_blank" rel="noreferrer">Ver repositorio <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top"><span class="project-number">03 — BASE DE DATOS</span><span class="project-symbol">⌘</span></div>
+          <div class="project-art art-data">
+            <div class="db-stack"><span></span><span></span><span></span></div><span class="art-label">SPOTIFY DATABASE</span>
+          </div>
+          <div class="project-info">
+            <h3>Proyecto Spotify</h3>
+            <p>Colaboré en el diseño de una base de datos inspirada en Spotify, usando SQL para organizar la información.</p>
+            <div class="tags"><span>SQL</span><span>Bases de datos</span></div>
+          </div>
+        </article>
+
+        <div class="project-card coming-soon reveal">
+          <div class="coming-soon-content">
+            <span class="coming-soon-plus">+</span>
+            <h3>Y más por venir...</h3>
+            <p>Nuevos proyectos en desarrollo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="background section-shell section-space" id="formacion">
+      <div class="section-label reveal"><span>03</span> / FORMACIÓN Y HABILIDADES</div>
+      <div class="background-grid">
+        <div class="education reveal">
+          <h2>Mi formación<span>.</span></h2>
+          <div class="timeline">
+            <div class="timeline-dot"></div><span class="timeline-date">2021 — 2026</span>
+            <h3>Escuela Técnica Nº 35 D.E. 18</h3>
+            <p>Secundario · Técnico en Computación (en curso)</p>
+            <div class="timeline-line"></div>
+            <div class="timeline-dot second"></div><span class="timeline-date">PRÓXIMO OBJETIVO</span>
+            <h3>Ingeniería en Sistemas</h3>
+            <p>Mi objetivo es continuar mis estudios en la UTN.</p>
+          </div>
+        </div>
+        <div class="skills reveal reveal-delay">
+          <h2>Lo que aporto<span>.</span></h2>
+          <div class="skill-list">
+            <div class="skill-row"><span>Creatividad</span>
+              <div class="skill-track"><i style="width:90%"></i></div>
+            </div>
+            <div class="skill-row"><span>Organización</span>
+              <div class="skill-track"><i style="width:90%"></i></div>
+            </div>
+            <div class="skill-row"><span>Puntualidad</span>
+              <div class="skill-track"><i style="width:85%"></i></div>
+            </div>
+            <div class="skill-row"><span>Responsabilidad</span>
+              <div class="skill-track"><i style="width:82%"></i></div>
+            </div>
+          </div>
+          <div class="language-box">
+            <h3>Idiomas</h3>
+            <div><span>Español</span><b>Nativo</b></div>
+            <div><span>Inglés</span><b>Avanzado</b></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-shell section-space" id="contacto">
+      <div class="contact-panel reveal">
+        <div class="contact-glow"></div>
+        <div class="section-label"><span>04</span> / CONTACTO</div>
+        <h2>¿Hacemos algo<br><span>copado juntos?</span></h2>
+        <p>Estoy abierto a aprender, colaborar en proyectos y conocer nuevas oportunidades.</p>
+        <div class="contact-links"><a href="mailto:zurita.matiasr@gmail.com"><span class="contact-icon">✉</span><span><small>EMAIL</small>zurita.matiasr@gmail.com</span><b>↗</b></a><a href="tel:+5491123911335"><span class="contact-icon">⌕</span><span><small>TELÉFONO</small>+54 9 11 2391-1335</span><b>↗</b></a><a href="https://github.com/MatiZur" target="_blank" rel="noreferrer"><span class="contact-icon">⌘</span><span><small>GITHUB</small>MatiZur</span><b>↗</b></a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer section-shell"><a class="brand" href="#inicio"><span class="brand-mark">MZ</span><span>Matias Zurita</span></a><a href="#inicio" class="back-top">Volver arriba ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
